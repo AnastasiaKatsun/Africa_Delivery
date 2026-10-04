@@ -64,22 +64,66 @@ quadrantChart
 5. **Слабое звено не власть, а календарь.** Партнёры и юрист имеют низкое политическое влияние и при этом держат критический путь. Карта влияния, где их нет, врёт — поэтому они в матрице.
 6. **Отсутствующий стейкхолдер — сам рынок.** В компании нет ни одного человека с локального рынка, а разговор с продавцами запрещён инвестором. Значит решения о кабинете продавца, USSD-сценариях и адресации принимаются без источника данных, и это надо зафиксировать как риск, а не как допущение.
 
-Сервер PlantUML
-Разместите меня на GitHub
-Создайте свой PlantUML диаграммы прямо в вашем браузере!
+@startuml Task1_Stakeholder_Matrix
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam roundCorner 12
+skinparam defaultFontSize 12
+skinparam defaultFontName "DejaVu Sans"
+skinparam ArrowColor #AEB8C4
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #AEB8C4
+  FontColor #14181F
+  FontName "DejaVu Sans"
+}
+skinparam note {
+  BackgroundColor #FFFDF0
+  BorderColor #D8CFA8
+}
 
-https://plantuml.planeta-team.ru/png/bLVRJbjN47ttLup8GnF94DiOugHf98EFepG4WycbQUc3YGrn0iULCGrjLScOa3I2GAujAW5oaVhII74CJenj78alsESN-YLTC_lumh6f6al8nsVlFRDcrfgPpUpjfFb3B1sReOdOZTjJwTIS6HzCJQVIT2mi7zTiOyVipLWyTITfJj5aR7esqR9Y7qkRYJHvVIqBySHaR6uw4qwPcR7apuaZ5uTZCmdg2YLknQxEqLZCdErgsHTCfrDtR511Oo0mw6zrdRYHYPbJqmdwnKKqS4GGM4cbuudqOIj4xDj-v_Lx0zwm_Qu3dbzRd9gfpD7-Gc6FqryeC1WE1c32bKbc05NzQULKZQoiAggygbWhQj_-QVs65qKhHwf0mSbqyaQCGedfv8-9z4_ZfdgYAgfahM5tIHK9N_dweIA_izQ8vedKkjg7_Q8iBP0gazfbc-9gJLLThcRIkaPzTF2Hr3FrNBrKlwj7whLwI-e98AejjObVR_3-ENmNdBvBwgCggvegkWdFXpmMh6Lh0KjbBEnrKMoMuEQO4GXxmeRahGK0d1HKpLgm5WL80POv8BQ_HzOgJ9Qmc8EJ3GImmrl7JK-FtqSdoTCJy01Q5Qu-wAon8GuK-OIfafMpLiYwo_WuUi6Sj-vXOPNmaBMMU0-oLyREHVnU5hJ3ro9ZLnmm7-5u5JltaCoyGAso1SJ8gMK7EupB5z2u-e6hfZxXKDwwB_JiMykSk9fwZnCF12Cp1gBXNPGWTWhuNX8KmQ5BneLGq85Z6tjhZ05PlcSjCnAlnwF507ybUAnnI0p6ey6SvYJjIsxM94cj40IJK6QZpV6R0h52UVC7_hdB4LWh0clC61eoecEivbOTUIKdRzGszF88IjrGxxIMjl6uXSTDjTKkewPI_g-Gl2YoGIDWzBS9QGkdAiox86562cn50id2TX5Xi7r-KsXGiWSXW01e0aTPUrdEt6cTkLE-SHDBHGRjvZHmUlBaxUlnUjoSxfg40zwOP40jQzcAQ7NXvRKVczD8T2XorO7x2Ump8Ld6FHYEiFz02tC5KLXDt17GtxSUirf9-Ea3zrV6GYAZgeIxPjrpYnmWrIgnuBb0H3KVE6h1SSqOCA8E72ya9qY2uBYiSNWq3Z_omBmioGxEyevMxoS1XifPapAiCgvTILXHjcIb4BNOLzjOKNb1SyaOZWmxTQx5Q3q6QhjqIjJmlE38UP6HS47diFan5pAZx-iJzFsSnPArH1Ul3xALsPWPdqZDqrTDHgK0xVuWa4Q2qSl37MJUA-9QLqzPpv3wElwsGA7TE3VHHpVKM_M7UlUPFRE-s11wBuJk3VU6_Mr2v_WU0ZgCCneybws5xf5BRh8MkPbAylV9uqS3a3QWq-3f6pTzfz4EiMlVblmUZNYQNRCYcLrnao3FQoAj5UpCazH6Jg0DH8EX8UEwCpN-8oQ9xWURagRdwXLIjlxPZS0vmphaouy9qn_s6y6sV6tWv5s4Kh1Bp8YuAJ7V_VNSJ3B6-JcbPuaVCh4UYg3o8ZwU4sjVIYUK8LrchNDzO0-xhzgp-k3lUeEKChIV3ogiEbwiIbUkw0wZkqOP77pIpLROsZkeI1H3HjYu6ZKS0RpaOiA92lTlhXlTzuT38uDqVFZy2JU5HY9q_AA1fmlcPAg7eecf7Zh-RV04nzUl-VT2349qaTF9zS2SEb8DBqMPjliIR8TnAdKEDBOOeiRvAqF1on5TAbzGDpx4APJPc0Tvo1Op1wh8D--J3QxhmMykZ57tTpUJyNZ2_1xtIhFx7E6QuC9D0P_6IZevTJE3fL6lSwLnfjU5eT1nnUz25NMqrhPIFmDrlePIdxgWf_zSTyabS2ALoQHcA3NPN20wEt4Eb25qRemoTZJ9MkhrQnxkDW-aIIBFExgfuaJ-xCc9Sx2X_d9E7NVdiN96t3Lc7nztozq46-IapJ9pbhKRiLn8sCapBLLkgRgzMgiy9BNDnbooRIACRjGHJqiPHysvnC18lPV3SX63Gmoc3fE9dRvkdoFQOMC0DHrscYEsPW_F4JRyYYkK2-jGEzUs-PpWPjlqJ_OPYJakTTm868ERvBYkhqKULXzjV_KwTzuOUUUX2xZQOnWldFT2TyizrbfsjusgCrJlXjYNi-_r2n9ocHLms8NDfoIz3e_FkTZtzc7Br383kGvBQbTV0UMss1G4hZXyimABepvti-mBMhQm0n97lMVOWpr7kvi0mRmmMMQQE7Dmq2IWXpgshvQkfDbejAAxGcXL6yF9gflTvlM8M9AxRqaFWBmm9jrBHCaHycMdrEDAc77vB-rV
-Копировать
-262728293031323334353637383940414243444546474849505152535455565758596061626364
+title Кто реально решает в Africa Delivery\nВлияние на решения  x  Интерес к деталям
+
+rectangle "Q2 · ДЕРЖАТЬ В КОНТУРЕ\nвлияние низкое, интерес высокий" as Q2 #E8F0FE {
+  rectangle "Нвосу · внешний юрист, Лагос\n0.42 / 0.80\nможет остановить финализацию архитектуры" as NWOSU
+  rectangle "Алмейда · маркетинг\n0.28 / 0.86\nоплаченные обещания в креативах" as ALMEIDA
+  rectangle "Продавцы · 100 на пилоте\n0.08 / 0.90\nносят обещание о выплате в тот же день" as SELLERS
+}
+
+rectangle "Q1 · УПРАВЛЯТЬ ПЛОТНО\nвлияние высокое, интерес высокий" as Q1 #FCE8E6 {
+  rectangle "Орлов · инвестор, единственный акционер\n0.98 / 0.72\nцели, дата 15.10, политический риск данных" as ORLOV
+  rectangle "Вебер · CFO\n0.88 / 0.90\nвето по счёту от 500 USD в месяц, найм заморожен" as WEBER
+  rectangle "Менон · CTO\n0.80 / 0.94\nтехнология по прямому делегированию инвестора" as MENON
+  rectangle "Платёжные и логистические партнёры\n0.55 / 0.60\nих KYC и sandbox = дата релиза" as PARTNERS
+}
+
+rectangle "Q3 · ИГНОРИРОВАТЬ НЕЛЬЗЯ\nвлияние низкое, интерес низкий" as Q3 #F1F3F4 {
+  rectangle "Брэдли · экс-PM, уволен 04.08\n0.05 / 0.05\n29 функций P0 остались, владельца нет" as BRADLEY
+}
+
+rectangle "Q4 · ДЕРЖАТЬ В РАВНОВЕСИИ\nвлияние высокое, интерес к деталям низкий" as Q4 #E6F4EA {
+  rectangle "Лефевр · CEO, ex-Jumia\n0.72 / 0.40\nэскалация; только он снимает «день в день»\nи «миллион покупателей»" as LEFEVRE
+  rectangle "Регуляторы · NDPC (NG), DPO (KE), Info. Reg. (ZA)\n0.65 / 0.18\nстек их не интересует, но остановить могут" as REGULATORS
+}
+
+' ---- каркас сетки 2x2 ----
+Q2    -[hidden]right-> Q1
+Q2    -[hidden]down->  Q3
+Q1    -[hidden]down->  Q4
+Q3    -[hidden]right-> Q4
+Q3    -[hidden]down->  ИТОГ
+Q4    -[hidden]down->  ИТОГ
+
+note bottom of ИТОГ
+  <b>Распределение решающего голоса</b>
+  Цели, дата, риск данных: <b>Орлов</b>, мандат не ограничен
+  Деньги и люди: <b>Вебер</b>, де-факто вето при бюджете 5000 USD в месяц
+  Технология: <b>Менон</b>, делегирование инвестора
+  Скоуп релиза: <b>никто</b> — вакансия, которую занимает архитектор решений
+  Маркетинг, юристы, партнёры: влияют на сроки, решений не принимают
+
+  Партнёры 0.55 / 0.60 сидят на границе Q1 и Q2, оставлены в Q1:
   их KYC-сроки блокируют релиз. Регуляторы 0.65 / 0.18 — не информируем,
   а выходим на контакт сами.
 end note
 @enduml
-View as:
-PNG
-SVG
-ASCII Art
-PDF
-settings undock
-Диаграмма PlantUML
-PlantUML версии 1.2023.10 (среда, 12 июля, 15:54:07 UTC, 2023)
