@@ -85,8 +85,8 @@
 
 Монолит (Go) (catalog, order, logistics, seller,  analytics, consent)
 
-* ◄───►   Сервис «Платежи» (payment)
-* ◄───► Сервис «Уведомл.» (notification)
+* Сервис «Платежи» (payment)
+* Сервис «Уведомл.» (notification)
 
 
 **Что осталось в монолите:** **catalog**, **order**, **logistics**, **seller**, **analytics**, **consent**.
